@@ -6,60 +6,60 @@ This project is designed to simplify content management on Instagram by allowing
 ---
 
 ## 🔑 Features
-- Automatic **Reels, Posts, and Stories uploading**  
-- Smart **post scheduling** with time-based automation  
-- **Multi-account management** via `accounts.txt`  
-- **Proxy support** for safe and secure automation  
-- Simple **user-friendly interface**  
-- Session-based **secure login**  
-- Full **logging system** (`log.txt`) for monitoring  
+- Automatic **Reels, Posts, and Stories uploading**
+- Smart **post scheduling** with time-based automation
+- **Multi-account management** via `accounts.txt`
+- **Proxy support** for safe and secure automation
+- Simple **user-friendly interface**
+- Session-based **secure login**
+- Full **logging system** (`log.txt`) for monitoring
 
 ---
 
 ## 🛠️ Technologies Used
-- **C#** for core logic  
-- **SQL** for account/session & schedule storage  
-- **HTML, CSS, JavaScript** for UI  
+- **C#** for core logic
+- **SQL** for account/session & schedule storage
+- **HTML, CSS, JavaScript** for UI
 
 ---
 
 ## ⚙️ How It Works (System Overview)
 
-1. **Media Source (Folder Structure)**  
-   Users place media files into specific folders:  
-   - `Gonderi` → Standard Instagram posts  
-   - `Hikaye` → Instagram stories  
-   - `Reels` → Instagram reels  
+1. **Media Source (Folder Structure) — Manual Placement Required**
+   Users **manually place** media files into these folders:
+   - `Gonderi` → Standard Instagram posts (images/videos)
+   - `Hikaye` → Instagram stories
+   - `Reels` → Instagram reels (vertical videos)
 
-   The bot scans these folders and prepares content automatically.  
+   The bot **does not download or fetch media automatically**. It only posts the files you have manually added to these folders.
 
-2. **Login & Authentication**  
-   - Credentials are read from `accounts.txt` in the format:  
+2. **Login & Authentication**
+   - Credentials are read from `accounts.txt` in the format:
      ```
      username:password
-     ```  
-   - Proxies (if used) are loaded from `proxy.txt` in the format:  
+     ```
+   - Proxies (if used) are loaded from `proxy.txt` in the format:
      ```
      http://username:password@server:port
-     ```  
-   - Secure session-based login is established and reused.  
+     ```
+   - Secure session-based login is established and reused.
 
-3. **Scheduling Module**  
-   - Users can assign date/time for each post.  
-   - All schedules are stored in the SQL database for accuracy.  
+3. **Scheduling Module**
+   - You can set a date/time for each post.
+   - All schedules are stored in the SQL database for accuracy.
 
-4. **Automation Engine**  
-   - At the scheduled time, the bot uploads content automatically.  
-   - Content type (Post, Story, Reels) is detected by folder.  
-   - Correct formatting is applied (e.g., vertical for Reels).  
+4. **Automation Engine**
+   - At the scheduled time, the bot uploads the selected content.
+   - Content type (Post, Story, Reels) is determined by the folder you placed it in.
+   - Proper formatting is applied (e.g., vertical for Reels).
 
-5. **Multi-Account Handling**  
-   - Supports unlimited accounts via `accounts.txt`.  
-   - Each account can run with or without a proxy from `proxy.txt`.  
+5. **Multi-Account Handling**
+   - Supports multiple accounts via `accounts.txt`.
+   - Each account can run with or without a proxy from `proxy.txt`.
 
-6. **Reports & Logs**  
-   - All activity is written to `log.txt`.  
-   - Includes successful uploads, failed attempts, and proxy usage.  
+6. **Reports & Logs**
+   - All activity is written to `log.txt`.
+   - Includes successful uploads, failed attempts, and proxy usage.
 
 ---
 
@@ -73,47 +73,46 @@ This project is designed to simplify content management on Instagram by allowing
 
 ## ⚙️ Setup Guide (Kurulum Rehberi)
 
-1. **Download & Install**  
-   - Download the project release files.  
-   - Extract them into a working directory.  
+1. **Download & Install**
+   - Download the release and extract it into a working directory.
 
-2. **Folder Preparation**  
-   - Place your media files into the respective folders:  
-     - `Gonderi` → Standard Instagram posts  
-     - `Hikaye` → Stories  
-     - `Reels` → Reels videos  
+2. **Prepare Folders (Manual)**
+   - Create or use the folders below and **manually copy** your media files:
+     - `Gonderi` → images/videos for standard posts
+     - `Hikaye` → media for stories
+     - `Reels` → vertical videos for reels
+   - The bot will only post **what you manually placed** in these folders.
 
-3. **Account Configuration**  
-   - Open `accounts.txt`  
-   - Add your accounts in the format:  
+3. **Account Configuration**
+   - Open `accounts.txt`
+   - Add accounts in the format:
      ```
      username:password
-     ```  
+     ```
 
-4. **Proxy Setup (Optional)**  
-   - Open `proxy.txt`  
-   - Add your proxies in the format:  
+4. **Proxy Setup (Optional)**
+   - Open `proxy.txt`
+   - Add proxies in the format:
      ```
      http://username:password@server:port
-     ```  
-   - If not using proxies, leave the file empty.  
+     ```
+   - Leave it empty if you don’t use proxies.
 
-5. **Run the Bot**  
-   - Launch the program.  
-   - Login sessions will be created automatically.  
-   - Choose scheduling options for posts/reels/stories.  
+5. **Run the Bot**
+   - Launch the program.
+   - Choose the mode (Post / Story / Reels) and scheduling options.
+   - Start automation.
 
-6. **Check Logs**  
-   - All activity is saved in `log.txt`.  
-   - Errors and successful posts can be tracked here.  
+6. **Check Logs**
+   - All actions and errors are written to `log.txt`.
 
 ---
 
 ## ⚠️ Note
 This is a **paid project**.  
-Source code is **not publicly available** here. The repository only shows project details, system workflow, and screenshots.  
+Source code is **not publicly available** here. The repository only shows project details, system workflow, and screenshots.
 
 ---
 
 ## 📬 Contact
-For collaboration or inquiries, please reach out via GitHub profile.  
+For collaboration or inquiries, please reach out via GitHub profile.
