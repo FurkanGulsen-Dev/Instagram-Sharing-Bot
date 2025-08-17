@@ -25,7 +25,8 @@ This project is designed to simplify content management on Instagram by allowing
 ## 📸 Screenshots
 | Login | Main Screen | Post Scheduler |
 |-------|-------------|----------------|
-| ![Login](Login.png) | ![Main Screen](MainScreen.png) | ![Start](Start.png) |
+| ![Login](<img width="420" height="257" alt="Login" src="https://github.com/user-attachments/assets/f24a87e5-fb42-467d-9485-e82c6689663d" />
+) | ![Main Screen](MainScreen.png) | ![Start](Start.png) |
 
 ---
 
