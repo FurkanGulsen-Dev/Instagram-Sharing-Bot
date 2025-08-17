@@ -31,8 +31,6 @@ This project is designed to simplify content management on Instagram by allowing
 |-------|-------------|-------|
 | <img width="420" height="257" alt="Login" src="https://github.com/user-attachments/assets/f24a87e5-fb42-467d-9485-e82c6689663d" /> | <img width="420" height="290" alt="MainScreen" src="https://github.com/user-attachments/assets/aecb3faa-2dd9-41a3-ac70-956defc12ea0" /> | <img width="420" height="290" alt="Start" src="https://github.com/user-attachments/assets/8b0fcc9d-8cce-4c38-acfd-0ddbd32f0559" /> |
 
-|
-
 ---
 
 ## ⚠️ Note
