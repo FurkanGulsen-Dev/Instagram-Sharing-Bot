@@ -115,4 +115,9 @@ Source code is **not publicly available** here. The repository only shows projec
 ---
 
 ## 📬 Contact
-For collaboration or inquiries, please reach out via GitHub profile.
+You can reach me on the following platforms:  
+
+- [TikTok](https://www.tiktok.com/@furkan.gulsen?lang=tr-TR)  
+- [Instagram](https://www.instagram.com/furkan.gulsen.01/)  
+- [Bionluk](https://bionluk.com/crstyal)  
+- [LinkedIn](https://www.linkedin.com/in/furkan-g%C3%BCl%C5%9Fen-53413137b/)  
