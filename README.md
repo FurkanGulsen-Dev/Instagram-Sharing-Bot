@@ -18,7 +18,6 @@ This project is designed to simplify content management on Instagram by allowing
 - **C#** for core logic  
 - **SQL** for data storage  
 - **HTML, CSS, JavaScript** for UI  
-- **Arduino** (in related automation modules)  
 
 ---
 
