@@ -121,3 +121,4 @@ You can reach me on the following platforms:
 - [Instagram](https://www.instagram.com/furkan.gulsen.01/)  
 - [Bionluk](https://bionluk.com/crstyal)  
 - [LinkedIn](https://www.linkedin.com/in/furkan-g%C3%BCl%C5%9Fen-53413137b/)  
+- [YouTube](https://www.youtube.com/@FurkanG%C3%BCl%C5%9FenCodes)  
