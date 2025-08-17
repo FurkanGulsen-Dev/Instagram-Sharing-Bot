@@ -22,6 +22,35 @@ This project is designed to simplify content management on Instagram by allowing
 
 ---
 
+## ⚙️ How It Works (System Overview)
+
+1. **Media Source**  
+   - Users place their images or videos inside the `Media` folder.  
+   - The system automatically scans this folder to prepare content for upload.  
+
+2. **Login & Authentication**  
+   - Secure login is handled through session-based authentication.  
+   - Once logged in, sessions are reused to avoid repetitive logins.  
+
+3. **Scheduling Module**  
+   - Users can select a date and time for each post.  
+   - Schedules are stored in the SQL database for accuracy and reliability.  
+
+4. **Automation Engine**  
+   - At the scheduled time, the bot triggers the upload process.  
+   - Reels and posts are formatted correctly (e.g., vertical for Reels, square for posts).  
+   - The content is then uploaded to Instagram automatically.  
+
+5. **Multi-Account Support**  
+   - Multiple accounts can be linked.  
+   - Each post can be assigned to a specific account.  
+
+6. **Reports & Logs**  
+   - Every posting attempt is logged.  
+   - Success and failure reports are available for debugging and monitoring.  
+
+---
+
 ## 📸 Screenshots  
 
 | Login | Main Screen | Start |
