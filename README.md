@@ -22,8 +22,6 @@ This project is designed to simplify content management on Instagram by allowing
 
 ---
 
-## 📸 Screenshots
-| Login | Main Screen | Post Scheduler |
 |-------|-------------|----------------|
 ## 📸 Screenshots  
 
